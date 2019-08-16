@@ -1,0 +1,2 @@
+<!--miniprogram/pages/productDetail/productDetail.wxml-->
+<text>{{ product.name }}</text>

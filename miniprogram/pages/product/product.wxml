@@ -1,0 +1,20 @@
+<!--miniprogram/pages/product/product.wxml-->
+<view class="productContainer" wx:for="{{products}}" bindtap="showDetail" data-product="{{product}}" wx:for-index="idx" wx:for-item="product">
+  <view class="risk">
+    <text>R1</text>
+  </view>
+  <view class="productinfo">
+    <view>{{product.name}}</view>
+    <view>
+      <text>起投金额：<text>20万</text></text>
+      <text>产品期限：<text>36月</text></text>
+    </view>
+  </view>
+  <view class="rate">
+    
+    <text>8.9%</text>
+    <text>基础业绩比较基准</text>
+    
+  </view>
+  
+</view> 

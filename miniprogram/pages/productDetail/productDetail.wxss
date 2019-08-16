@@ -1,0 +1,4 @@
+/* miniprogram/pages/productDetail/productDetail.wxss */
+.risk {
+  flex : 1
+}

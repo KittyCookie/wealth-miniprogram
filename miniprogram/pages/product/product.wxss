@@ -1,0 +1,18 @@
+/* miniprogram/pages/product/product.wxss */
+.productContainer {
+  display: flex;
+  flex : 1;
+  flex-direction: "row";
+}
+.risk {
+  flex : 1;
+}
+.productinfo {
+  flex : 8;
+  flex-direction: "column";
+}
+
+.rate {
+  flex : 4; 
+  flex-direction: "column";
+}
